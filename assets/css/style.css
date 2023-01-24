@@ -4,8 +4,30 @@ background-color: gainsboro;
 }
 
 main{
- display: flex; 
- flex-direction: column;
- justify-content: center; 
- align-items: center; 
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+}
+header{
+    width:300px;
+    height: 100px;
+}
+#time{
+    color:black;
+}
+#task-box{
+    width: 400px;
+    height: 30px; 
+    background-color: aquamarine;
+}
+
+#time-row{
+    display: flex;
+}
+
+#hour{
+    width: 25px;
+    height: 25px;
+    border-color: blue;
 }
